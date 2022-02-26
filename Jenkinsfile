@@ -1,4 +1,4 @@
-node('any'){
+
     stage('compile'){
         echo "compiling the image"
     }
@@ -14,4 +14,4 @@ node('any'){
     stage('release'){
         echo "compiling the image"
     }
-}
+
