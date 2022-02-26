@@ -14,4 +14,4 @@ node('master'){
     stage('release'){
         echo "compiling the image"
     }
-    
+}
