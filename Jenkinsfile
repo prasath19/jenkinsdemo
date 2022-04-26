@@ -1,4 +1,5 @@
-
+node('master'){
+    
     stage('compile'){
         echo "compiling the image"
     }
@@ -14,4 +15,4 @@
     stage('release'){
         echo "compiling the image"
     }
-
+}
