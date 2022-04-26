@@ -1,4 +1,4 @@
-node('master'){
+node{
     
     stage('compile'){
         echo "compiling the image"
